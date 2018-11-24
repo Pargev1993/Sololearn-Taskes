@@ -10,6 +10,20 @@ namespace Sololearn_Taskes
     {
         static void Main(string[] args)
         {
+            int[] Arr = { 7, 4, 3 };
+            int m = 1;
+            try
+            {
+                m = Arr[3];
+                Console.WriteLine(m);
+            }
+            catch 
+            {
+
+                m = Arr[m];
+            }
+            Console.WriteLine(m);
+
         }
     }
 }
